@@ -1,11 +1,17 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+title: 'Flirtfolio'
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="Flirtfolio">
+	
+	<main class="flex-1 flex items-start justify-center relative mt-[10vh]">
+		<blockquote class="relative flex bg-white text-black text-5xl font-bangers text-left rounded-xl border border-gray-300 leading-snug p-12 max-w-3xl shadow-lg">
+			 Are you an IPO? Cause I want in before everyone else realizes how valuable you are.
+			<span class="absolute bottom-[-30px] right-0 mr-[15vw] w-[10vw] h-[3vh] bg-white rounded-lg shadow-lg text-transparent text-[55px] leading-[30px] z-[-2] animate-float"></span>
+			<span class="absolute bottom-[-60px] right-0 mr-[16vw] w-[5vw] h-[3vh] bg-white rounded-lg shadow-lg text-transparent text-[55px] leading-[30px] z-[-2] animate-float"></span>
+		</blockquote>
+		<img src="/img/chad-cattle.png" alt="Chad Cattle" class="absolute bottom-0 right-0 w-[40vw] z-10">  
+	</main>
+  
 </Layout>

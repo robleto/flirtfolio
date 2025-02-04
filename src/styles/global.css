@@ -1,0 +1,12 @@
+@tailwind base;
+
+body {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+blockquote, .bangers {
+  font-family: 'Bangers', cursive;
+}
+
+@tailwind components;
+@tailwind utilities;
