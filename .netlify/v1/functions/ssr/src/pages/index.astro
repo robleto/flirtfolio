@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+title: 'Flirtfolio'
+---
+
+<Layout title="Flirtfolio">
+	
+    <main class="flex-1 flex flex-col items-start justify-start relative mt-[10vh] px-4 sm:px-8 md:px-12 lg:px-16">
+			
+			<div class="relative flex">
+			<blockquote id="pickup-line" class="flex bg-white text-black text-4xl sm:text-5xl font-bangers text-left rounded-xl border border-gray-300 leading-snug p-6 sm:p-10 md:p-12 max-w-3xl shadow-lg min-w-full">
+      	Loading pickup line...
+    	</blockquote>      	
+			<span class="absolute bottom-[-30px] right-0 mr-[15vw] lg:mr-[0vw] w-[12vw] sm:w-[10vw] h-[2vh] sm:h-[3vh] bg-white rounded-lg shadow-lg text-transparent z-[-2] animate-float"></span>
+			<span class="absolute bottom-[-60px] right-0 mr-[15vw] lg:mr-[0vw] w-[6vw] sm:w-[5vw] h-[2vh] sm:h-[3vh] bg-white rounded-lg shadow-lg text-transparent z-[-2] animate-float"></span>
+</div>
+
+
+    	<button id=	"new-line-btn" class="mt-6 px-4 py-2 opacity-75 transparent text-red-900 border-red-900 text-xl font-semibold rounded-lg border-2 hover:bg-red-800 hover:text-white transition">
+      	New Pickup Line
+    	</button>
+
+      <img src="/img/chad-cattle.png" alt="Chad Cattle" class="absolute bottom-0 right-0 w-[50vw] sm:w-[40vw] z-10">  
+    </main>
+
+</Layout>
