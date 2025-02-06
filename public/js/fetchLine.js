@@ -2,7 +2,7 @@ async function fetchPickupLine() {
 	const lineContainer = document.getElementById("pickup-line");
 
 	// Show loading text while fetching
-	lineContainer.textContent = "Thinking of something smooth...";
+	lineContainer.textContent = "Give flirty Chad Cattle a second while he thinks of something smooth...";
 
 	try {
 		const response = await fetch("/api/pickup-line", {
